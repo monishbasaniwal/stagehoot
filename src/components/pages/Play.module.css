@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+.logomain {
+  font-family: 'Galada', cursive;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    animation: heartbeat 3s infinite;
+}
+
+.logoappbar{
+  font-family: 'Galada', cursive;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  margin-top: 18px;
+}
+
+.playbtn {
+  background-color: #27890D;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 18px;
+  padding: 10px;
+  border: none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.PlayContainer {
+    
+    padding-top: 200px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	text-align: center;
+    margin: auto;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.HostContainer {
+    
+  padding-top: 170px;
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .95 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .95 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .95 );
+  }
+  100%
+  {
+    transform: scale( .95 );
+  }
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+.SelectMode {
+    display: block;
+}
+
+.Enter {
+    display: block;;
+}
+
+.joinbtn {
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    max-width: 18.75rem;
+    min-width: 6.25rem;
+    color: rgb(51, 51, 51);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 25px;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.join {
+    display: inline-block;
+    min-width: 6.25rem;
+    max-width: 18.75rem;
+    width: 93.34%;
+    height: 3.125rem;
+    margin: auto;
+    margin-top: 15px;
+    padding: 0.25rem 0.875rem;
+    background-color: rgb(51, 51, 51);
+    border-width: 0.0625rem;
+    border-style: solid;
+    cursor: pointer;
+    border-image: initial;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius: 0.125rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    outline: 0px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
